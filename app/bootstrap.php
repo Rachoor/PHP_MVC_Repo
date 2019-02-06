@@ -6,4 +6,7 @@
  * Time: 4:26 PM
  */
 
-echo 'Bootstrap file';
+require_once './libraries/Core.php';
+require_once  './libraries/Controller.php';
+require_once  'libraries/Database.php';
+
