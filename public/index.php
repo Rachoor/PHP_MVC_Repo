@@ -6,4 +6,4 @@
  * Time: 4:22 PM
  */
 
-echo 'Public folder';
+require_once '../app/bootstrap.php';
