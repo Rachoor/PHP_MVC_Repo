@@ -6,7 +6,7 @@
  * Time: 5:44 PM
  */
 
-class Posts{
+class Posts extends Controller {
     public function __construct()
     {
     }

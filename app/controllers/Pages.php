@@ -6,12 +6,17 @@
  * Time: 5:41 PM
  */
 
-class Pages{
+class Pages extends Controller {
     public function __construct()
     {
     }
-    public function about($id) {
-        echo 'this is about '.$id;
+    public function index() {
+        $data= ['title'=>'Welcome'];
+        $this->view('pages/index', $data);
+
     }
-    public function index() {}
+
+    public function about() {
+        $this->view('pages/about');
+    }
 }
